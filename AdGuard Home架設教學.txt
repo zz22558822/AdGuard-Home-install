@@ -1,0 +1,8 @@
+# 更新Ubuntu
+sudo apt-get -y update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade
+
+# 使用 curl 運行安裝腳本
+curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
+
+# validating ports 53 佔用問題(Ubuntu)
+sudo systemctl stop systemd-resolved && sudo systemctl disable systemd-resolved
