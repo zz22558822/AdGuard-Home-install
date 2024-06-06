@@ -16,7 +16,7 @@
 ## 使用教學(自動)
 1. 下載安裝腳本:
     ```sh
-    sudo wget https://github.com/zz22558822/LAMP/releases/download/upload/install_adguardhome.sh
+    sudo wget https://github.com/zz22558822/AdGuard-Home-install/releases/download/upload/install_adguardhome.sh
     ```
 
 2. 執行腳本:
