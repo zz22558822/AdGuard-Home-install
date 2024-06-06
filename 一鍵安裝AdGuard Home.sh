@@ -31,5 +31,9 @@ else
     echo "非 Ubuntu 系統，跳過 53 Port佔用問題。"
 fi
 
+# 開啟初始化頁面
+echo "正在開啟 AdGuard Home 初始化頁面"
+xdg-open http://localhost:3000
+
 # AdGuard Home 完成
 echo "AdGuard Home 建置完成."
